@@ -14,4 +14,4 @@ def name(name):
 def abc():
     return render_template("abc.html")
 if __name__ == "__main__":
-    app.run(debug=True) 
+    app.run(debug=True,host="0.0.0.0",port=5000)
